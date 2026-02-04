@@ -2,6 +2,7 @@
 import json
 from decimal import Decimal
 
+
 def calculate_profit(trades_file: str) -> None:
     """
     Считает прибыль и остаток Matecoin по данным из trades_file
